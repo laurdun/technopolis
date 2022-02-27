@@ -34,7 +34,7 @@
 								<ul>
 									<li class="i1 o"><a href="./" title="Home"><span class="in">Home</span></a></li>
 									<li class="i2 e"><a href="film.html" title="Film"><span class="in">Film</span></a></li>
-									<li class="i3 o"><a href="radio-2.html" title="Radio"><span class="in">Radio</span></a></li>
+									<li class="i3 o"><a href="audio.html" title="Audio"><span class="in">Audio</span></a></li>
 									<li class="i4 e"><a href="television.html" title="Television"><span class="in">Television</span></a></li>
 									<li class="i5 o"><a href="computer-2.html" title="Computer"><span class="in">Computer</span></a></li>
 									<li class="i6 e"><a href="an-exhibition.html" title="An Exhibition"><span class="in">An Exhibition</span></a></li>
@@ -54,6 +54,15 @@
 								<h3 class="hidden">Sidebar<a rel="nofollow" href="#main">[Skip]</a></h3>
 								<div class="pagelet untitled i1 o">
 									<div class="pagelet-body">
+										<div>
+											<!-- sandvox.PageCounterElement -->
+											<div id="pc" style="text-align: center;" class="page_counter"></div>
+											<!-- /sandvox.PageCounterElement -->
+										</div>
+									</div>
+								</div>
+								<div class="pagelet untitled i2 e">
+									<div class="pagelet-body">
 										<div class="ImageElement">
 											<div class="photo">
 												<div>
@@ -63,14 +72,14 @@
 										</div>
 									</div>
 								</div>
-								<div class="pagelet titled i2 e last-item">
+								<div class="pagelet titled i3 o last-item">
 									<h4 style="text-align:center;" class="title pagelet-title"><span class="in"><strong><span style="color: rgb(143, 219, 254); font-size: 18px; font-family: Tahoma;">Our Mission</span></strong></span></h4>
 									<div class="pagelet-body">
 										<div class="RichTextElement">
 											<div>
 												<p><strong><span style="font-size: 14px; font-family: Tahoma;">To stimulate curiosity through hands-on experiences
-												with interactive educational exhibits and working equipment displays set with
-												period furniture and design.</span><span style="font-family: Tahoma;">  </span></strong>  </p>
+																																				with interactive educational exhibits and working equipment displays set with
+																																				period furniture and design.</span><span style="font-family: Tahoma;">  </span></strong> </p><p><br /></p><p><strong style="color: rgb(188, 188, 188); font-family: Tahoma; font-size: 14px;">Technopolis Museum has a 501c3 status and is looking for a permanent brick-and-mortar home.</strong></p>
 												
 											</div>
 										</div>
@@ -113,6 +122,16 @@
 		<script>
 		if (typeof jQuery === 'undefined') document.write('<scr'+'ipt src="resources/jquery-1.9.1.min.js"></scr'+'ipt>');
 		</script>
+		<script charset="utf-8" src="https://ctrservice.karelia.com/ctr/count.js?u=http://index.com/about.html"></script>
+		<script>
+		var paragraph = document.createElement("p");
+		var text = document.createTextNode(svxPageCount);
+		paragraph.appendChild(text);
+		document.getElementById("pc").appendChild(paragraph);
+		</script><noscript>
+		    <!-- tickle pagecounter by loading a small image -->
+		    <p><img src="http://ctrservice.karelia.com/ctr/noscript.gif?u=http://index.com/about.html" alt="" /></p>
+		</noscript>
 		
 		
 	</body>
